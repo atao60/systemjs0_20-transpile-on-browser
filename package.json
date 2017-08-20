@@ -1,0 +1,29 @@
+{
+  "name": "sjs2-ts2-bs4",
+  "version": "0.0.5",
+  "description": "Transpile Typescript 2 on browser with SystemJS 2.0",
+  "scripts": {
+    "start": "npm run dev",
+    "dev": "lite-server -c=bs-config.js"
+  },
+  "keywords": [
+    "transpile",
+    "browser",
+    "systemjs",
+    "typescript",
+    "bootstrap",
+    "font-awesome"
+  ],
+  "author": "atao60",
+  "license": "MIT",
+  "dependencies": {
+    "bootstrap": "^4.0.0-beta",
+    "font-awesome": "^4.7.0",
+    "plugin-typescript": "^7.1.0",
+    "systemjs": "0.20.17",
+    "typescript": "2.4.2"
+  },
+  "devDependencies": {
+    "lite-server": "^2.3.0"
+  }
+}
