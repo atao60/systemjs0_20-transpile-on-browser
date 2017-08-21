@@ -78,7 +78,7 @@ $ cat > src/index.html <<_
 
 <head>
   <meta charset="UTF-8">
-  <title>Quickstart with Typescript 2, Bootstrap 4 and SystemJS 2.0</title>
+  <title>Quickstart with Typescript 2, Bootstrap 4 and SystemJS 0.20</title>
   <link rel="icon" type="image/x-icon" href="s-193323.ico">
 
   <link rel="stylesheet" type="text/css" href="../node_modules/bootstrap/dist/css/bootstrap.css">
@@ -94,7 +94,7 @@ $ cat > src/index.html <<_
   <div class="container">
     <div class="jumbotron">
       <h1>Building JavaScript Demos</h1>
-      <p>With System.js 2.0, TypeScript 2.4 and Bootstrap 4</p>
+      <p>With System.js 0.20, TypeScript 2.4 and Bootstrap 4</p>
     </div>
     <h2>Welcome!<span class="fa fa-handshake-o"></span></i></h2>
     <p>Open the browser console to check if the "Person name: David" message is there.</p>
