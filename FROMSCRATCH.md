@@ -6,12 +6,15 @@ WORK IN PROGRESS
 TODO give some rational
 
 Tools used to set up the project from scratch:
+* curl
+* fmt
 * sed
-* wget
 * unzip
+* wget
 
+```bash
 
-```shell
+# Job done under Ubuntu
 
 # Check npm and node availability
 
@@ -30,14 +33,25 @@ $ sed -i '/^\s*"test"\s*:/ d' package.json
 $ sed -i '/^\s*"main"\s*:/ d' package.json
 $ sed -i -E 's/^(\s*"license"\s*:\s*).*$/\1"MIT",/' package.json
 
-$ npm install --save systemjs typescript
+$ touch README.md
+
+$ curl "https://choosealicense.com/licenses/mit/#" | xmllint --xpath "//pre/node()" --recover - > LICENSE
+
+$ sed -i "s/\[year]/`date +%Y`/" LICENSE
+$ sed -i "s/\[fullname]/atao60 \& popsuite.org/" LICENSE
+
+$ fmt -w 117 LICENSE > LICENSE.tmp && mv -f LICENSE.tmp LICENSE
+
+$ npm install --save systemjs typescript plugin-typescript
+
+# As we want a non stable version of Bootstrap, it must be specified:
+
+$ npm install --save bootstrap@4.0.0-beta font-awesome
 
 $ wget -O s-193323.zip https://www.freefavicon.com/freefavicons/letters/download.php?ico=s-193323.zip
 $ unzip s-193323.zip -x *.txt *.png
 $ mv favicon.ico s-193323.ico
 $ rm -f s-193323.zip
-
-$ touch README.md
 
 # Add the code
 

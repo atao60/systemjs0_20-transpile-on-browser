@@ -23,7 +23,7 @@ How to start
 * Add your packages
 * Write your code
 
-> See note below about `dev` profile with Firefox to avoid blocking CORS errors.
+> See below about `dev` profile with Firefox to avoid blocking CORS errors.
 
 Technical points
 ------
