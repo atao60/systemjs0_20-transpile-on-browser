@@ -1,7 +1,7 @@
 {
   "name": "sjs2-ts2-bs4",
   "version": "0.0.5",
-  "description": "Transpile Typescript 2 on browser with SystemJS 2.0",
+  "description": "Transpile Typescript 2 on browser with SystemJS 0.20",
   "scripts": {
     "start": "npm run dev",
     "dev": "lite-server -c=bs-config.js"
