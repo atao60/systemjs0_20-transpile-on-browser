@@ -1,9 +1,11 @@
 Set up from scratch
 ====
 
-WORK IN PROGRESS
+**!!! WORK IN PROGRESS !!!**
 
-TODO give some rational
+TODO :
+* missing instructions
+* give some rational
 
 Tools used to set up the project from scratch:
 * curl
@@ -155,3 +157,12 @@ $ cat > systemjs.config.js <<_
 _
 
 ```
+
+TODO: to be completed
+
+$ git init
+$ git add .
+$ git commit -m "first commit"
+$ git remote add origin https://github.com/atao60/systemjs0_20-transpile-on-browser.git
+$ git push -u origin master
+

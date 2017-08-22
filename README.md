@@ -1,7 +1,7 @@
 SystemJS 0.20 with Typescript 2, Bootstrap 4 and Font-Awesome
 =====
 
-A minimalistic template for quickly building a demo to gather help, to show a potential bug report or to set up a POC. 
+A minimalistic template for quickly building a demo to gather help, to show a potential bug report or to set up a [POC](https://en.wikipedia.org/wiki/Proof_of_concept). 
 
 No [grunt](https://gruntjs.com/), [gulp](https://gulpjs.com/) ... only [npm](https://www.npmjs.com/).
 
