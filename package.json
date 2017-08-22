@@ -1,5 +1,5 @@
 {
-  "name": "sjs2-ts2-bs4",
+  "name": "sjs0_20-ts2-bs4",
   "version": "0.0.5",
   "description": "Transpile Typescript 2 on browser with SystemJS 0.20",
   "scripts": {
